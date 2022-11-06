@@ -275,7 +275,7 @@ h2{
 	height:20%; 
 	display:inline-block;
 	float:right; 
-	background-color:red; 
+	background-color: #124e42; 
 	box-sizing:border-box;
 	padding-top:12px;
 }
@@ -283,7 +283,7 @@ h2{
 #cards2{
 	width:80%;
 	height:80%;
-	background-color:white;
+	background-color: #124e42;
 	box-sizing:border-box;
 	margin:0 auto;
 }
@@ -310,10 +310,28 @@ h2{
 	position: absolute;
 	top: 50%;
 	margin: auto;
-	align-content: center;
 }
-/* .image4{ */
-	
+#flash2{
+	width:auto;
+	height:auto; 
+	position: absolute;
+	top: 50%;
+	margin-left:20%;
+}
+#flash3{
+	width:auto;
+	height:auto; 
+	position: absolute;
+	top: 50%;
+	margin-left:40%;
+}
+#flash4{
+	width:auto;
+	height:auto; 
+	position: absolute;
+	top: 50%;
+	margin-left:60%;
+}
 
 /* end of nzsl page */
 /* start of about page */
@@ -391,7 +409,7 @@ padding-left:2%;
 	align-content: center;
 }
 .fa-bars{
-	color:#124e42;
+/* 	color:#124e42; */
 	padding-left:7.5px;
 	padding-top:15px;
 	font-size:10px;
@@ -404,7 +422,15 @@ padding-left:2%;
 	float:left;
 	box-sizing:border-box;
 }
- #moko{
+#tereopage{
+	font-family:trajan pro;
+	color:#124e42;
+	padding-top:5%;
+	font-size:28pt;
+	margin-top:0;
+	text-align:center;
+}
+#moko{
 	width:20vw;
 	height:20%;
 	background-color:#b9caab;
@@ -417,14 +443,6 @@ padding-left:2%;
 	width:20vw;
 	
 }
-#tereopage{
-	font-family:trajan pro;
-	color:#124e42;
-	padding-top:5%;
-	font-size:28pt;
-	margin-top:0;
-	text-align:center;
-}
 /* start of flash cards */
 #cards{
 	width:80vw;
@@ -434,8 +452,6 @@ padding-left:2%;
 	float:right;
 	margin-right:10%;
 	padding-left:85px;
-
-
 }
 .translations{
 	width:150px;
@@ -521,5 +537,123 @@ h2{
 	font-size:12pt;
 	
  }
+ /* start of nzsl page */
+ #container4{
+	width:100vw;
+	height:100vh;
+	background-color:#124e42;
+}
+#burgermenu2{
+	width:15vw;
+	height:20%;
+	background-color:#124e42;
+	display:inline-block;
+	box-sizing:border-box;
+	align-content: center;
+}
+#greeting2{
+	width:65vw;
+	height:20%;
+	background-color:#124e42;
+	display:inline-block;
+	float:left;
+	box-sizing:border-box;
+}
+#nzslpage{
+	font-family:trajan pro;
+	color:#b9caab;
+	padding-top:5%;
+	font-size:28pt;
+	margin-top:0;
+	text-align:center;
+}
+#imageholder2{
+	width:20vw;
+	height:20%;
+	background-color:#124e42;
+	display:inline-block;
+	box-sizing:border-box;
+	padding-top:2.5%; 
+	float:right;
+}
+.image4{
+	width:20vw;
+}
+/* start of flash cards */
+#cards2{
+	width:80vw;
+	height:80wv;
+	background-color:#124e42;
+	box-sizing:border-box;
+	float:right;
+	margin-right:10%;
+	padding-left:85px;
+}
+.translations2{
+	width:150px;
+	height:200px;
+	background-color:#124e42;
+	box-sizing:border-box;
+	border: 5px solid #b9caab;
+	border-radius: 5px;
+	margin: 0;
+}
+.translations2:hover .overlay2 {
+    width:140px;
+	height:188px;
+	border: 5px solid #b9caab;
+	border-radius: 5px;
+	margin: 0;
+    background-color:#124e42;
+}
+#flash1{
+	width:50vw;
+	height:auto; 
+	position: absolute;
+	top: 25%;
+	margin: auto;
+	display:block;
+/* 	margin-left: */
+}
+.image5{
+	width:35vw;
+}
+
+#flash2{
+	width:auto;
+	height:auto; 
+	position: absolute;
+	top: 40%;
+	display:block;
+	margin:auto; 
+	margin-top:20%
+}
+.image6{
+	width:35vw;
+}
+#flash3{
+	width:auto;
+	height:auto; 
+	position: absolute;
+	top: 55%;
+	display:block;
+	margin:auto; 
+	margin-top:40%
+}
+.image7{
+	width:35vw;
+}
+#flash4{
+	width:auto;
+	height:auto; 
+	position: absolute;
+	top: 70%;
+	display:block;
+	margin:auto; 
+	margin-top:60%
+}
+.image8{
+	width:35vw;
+}
 
 }
