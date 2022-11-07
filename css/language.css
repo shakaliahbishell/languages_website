@@ -352,6 +352,26 @@ h4{
 	margin:auto;
 	text-align:center;
 	margin-top:30%;
+	margin-left:20%;
+	margin-right:20%;
+}
+h5{
+	margin:auto;
+	text-align:center;
+	margin-top:30%;
+	margin-left:20%;
+	margin-right:20%;
+	color:#b9caab;
+}
+.copyright{
+	margin:auto;
+	text-align:center;
+	margin-top:30%;
+	color:#b9caab;
+	margin-left:28%;
+}
+.copyright:hover{
+	color:#f1f1f1;
 }
 
 /*responsive for mobiles*/
@@ -451,7 +471,7 @@ h4{
 /* start of flash cards */
 #cards{
 	width:80vw;
-	height:80wv;
+	height:80vh;
 	background-color:#b9caab;
 	box-sizing:border-box;
 	float:right;
@@ -587,7 +607,7 @@ h2{
 /* start of flash cards */
 #cards2{
 	width:80vw;
-	height:80wv;
+	height:80vh;
 	background-color:#124e42;
 	box-sizing:border-box;
 	float:right;
