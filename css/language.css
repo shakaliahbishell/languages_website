@@ -348,6 +348,11 @@ font-family:trajan pro;
 font-size:35pt;	
 padding-left:2%;
 }
+h4{
+	margin:auto;
+	text-align:center;
+	margin-top:30%;
+}
 
 /*responsive for mobiles*/
 
@@ -469,7 +474,7 @@ padding-left:2%;
 	top: 25%;
 	margin: auto;
 	display:block;
-	margin-left:
+	
 }
 #card2{
 	width:auto;
@@ -613,7 +618,7 @@ h2{
 	top: 25%;
 	margin: auto;
 	display:block;
-/* 	margin-left: */
+
 }
 .image5{
 	width:35vw;

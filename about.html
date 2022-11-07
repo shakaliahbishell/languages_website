@@ -9,13 +9,40 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
 			<link rel="stylesheet" href="css/language.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		</head>
 		<body>
 		<div id="container1">
 			<h1 id="about">About</h1> 
-			</div>
+			<div id="burgermenu1">
+						
+					<span onclick="openNav()"><a href="#"><i class="fa fa-bars" style="font-size:50px; color:#124e42;"></i></a></span>
+						<div id="myNav" class="overlay">
+							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+							
+							<div class="overlay-content">
+								<a href="index.html">Home</a>
+								<a href="nzsl.html">NZSL</a>
+								<a href="te_reo_maori.html">Te Reo Māori</a>
+							</div>
+						</div>
+						
+					</div>
+			
+			<h4 style="color:#124e42"> The purpose of this site is to bring awearness to the offical languages of New Zealand.<br>This website enabels easy access to material, whilst providing comfort as it gives the option to learn from thier bed or any environment of choice!</h4>
 		</div>
 		<div id="container2">
 			<h1 id="thanks">Thanks To</h1>
+			<h4 style="color:#b9caab">I would like to give a big thanks to Whaea Terry, and Toumairangi! <br> these two ladies educated and guided me though out this design when it came to the Te Ao  Māori aspects of this site, having a hand in creating a site that respects Māori Culture</h4>
 		</div>
+		
+	<script>
+			function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
 		</body>
