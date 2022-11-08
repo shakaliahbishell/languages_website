@@ -641,7 +641,7 @@ h2{
 
 }
 .image5{
-	width:35vw;
+	width:30vw;
 }
 
 #flash2{
@@ -654,7 +654,7 @@ h2{
 	margin-top:20%
 }
 .image6{
-	width:35vw;
+	width:30vw;
 }
 #flash3{
 	width:auto;
@@ -666,7 +666,7 @@ h2{
 	margin-top:40%
 }
 .image7{
-	width:35vw;
+	width:30vw;
 }
 #flash4{
 	width:auto;
@@ -678,7 +678,34 @@ h2{
 	margin-top:60%
 }
 .image8{
-	width:35vw;
+	width:30vw;
 }
 
+/* start of about page */
+#about{
+	margin-left:40%;
+	
+}
+h4{
+	margin:auto;
+	text-align:center;
+	margin-top:7%;
+	margin-left:20%;
+	margin-right:20%;
+}
+h5{
+	margin:auto;
+	text-align:center;
+	margin-top:0%;
+	margin-left:20%;
+	margin-right:20%;
+	color:#b9caab;
+}
+.copyright{
+	margin:auto;
+	text-align:center;
+	margin-top:30%;
+	color:#b9caab;
+	margin-left:0%;
+}
 }
